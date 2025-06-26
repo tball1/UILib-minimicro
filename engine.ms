@@ -17,9 +17,9 @@ Object.draw = function(filled=1,obj=null)
 		self = obj
 	end if
 	if filled then
-		gfx.fillRect(self.x,self.y,self.width,self.height,self.color, self.lineWidth)
+		gfx.fillRect(self.x,self.y,self.width,self.height,self.color)
 	else
-		gfx.drawRect(self.x,self.y,self.width,self.height,self.color)
+		gfx.drawRect(self.x,self.y,self.width,self.height,self.color, self.lineWidth)
 	end if
 end function
 
