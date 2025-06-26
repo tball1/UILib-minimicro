@@ -4,7 +4,7 @@ DraggableFrame = engine.DraggableFrame
 Label = engine.Label // see label.ms
 
 //DraggableFrames are frames that can be dragged by the user
-//DraggableFrames provide extra functionality and needs to be in UILogic
+//DraggableFrames provide extra functionality and needs to be in UILoop
 
 
 myFrame = new DraggableFrame
