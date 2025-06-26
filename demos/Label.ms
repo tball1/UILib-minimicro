@@ -3,7 +3,7 @@ import "engine"
 Label = engine.Label
 
 //Labels are kind of like StaticFrames, but theres text on them.
-//Because labels provide nothing special they don't need to be un UILogic
+//Because labels provide nothing special they don't need to be un UILoop
 
 myLabel = new Label
 myLabel.text = "Hello, world!"
