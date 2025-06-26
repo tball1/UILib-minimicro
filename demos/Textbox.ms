@@ -5,9 +5,6 @@ Textbox = engine.Textbox
 //Textboxes are fields where the user can click, enter some text, and press enter to finish.
 //Textboxes are an element that requires special logic to function, this is where UILoop comes in.
 
-//"UILoop" is the function responsible for handling elements that provide fancy features such as a button
-//See the GitHub README as it explains what all needs to be in there
-
 myField = new Textbox
 
 
