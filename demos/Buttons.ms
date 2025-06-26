@@ -3,7 +3,7 @@ import "engine"
 Button = engine.Button
 
 //Buttons are elements the user can click and have something happen as a result
-//This is another element that provides special functionality and needs to be in UILogic
+//This is another element that provides special functionality and needs to be in UILoop
 
 myButton = new Button
 
