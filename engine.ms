@@ -2,6 +2,7 @@ Object = {}
 Object.x = 0
 Object.y = 0
 Object.width = 0
+Object.lineWidth = 4
 Object.height = 0
 Object.color = color.white
 
@@ -16,7 +17,7 @@ Object.draw = function(filled=1,obj=null)
 		self = obj
 	end if
 	if filled then
-		gfx.fillRect(self.x,self.y,self.width,self.height,self.color)
+		gfx.fillRect(self.x,self.y,self.width,self.height,self.color, self.lineWidth)
 	else
 		gfx.drawRect(self.x,self.y,self.width,self.height,self.color)
 	end if
